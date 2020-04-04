@@ -1,4 +1,4 @@
-package application;
+ package application;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -20,7 +20,7 @@ public class Program {
 		
 			try {
 				UI.clearScreen();		
-				UI.printBoard(chessMatch.getpieces());
+				UI.printMatch(chessMatch);
 				System.out.println();
 				System.out.print("Source: ");
 				ChessPosition source = UI.readChessPosition(sc);
